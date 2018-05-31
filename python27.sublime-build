@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:/Python27/python.exe", "-u", "$file"],
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
+}
