@@ -1,0 +1,8 @@
+{
+    "cmd": ["pipenv", "run", "--u", "$file"],
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+    "env":{
+        "PIPENV_MAX_DEPTH": "10"
+    }
+}
