@@ -1,0 +1,9 @@
+{
+    "shell_cmd": "bash -c \"wslpath '$file' | xargs pipenv run python -u\"",
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+    "env":{
+        "PIPENV_MAX_DEPTH": "10",
+        "WSLENV":"PIPENV_MAX_DEPTH"
+    }
+}
